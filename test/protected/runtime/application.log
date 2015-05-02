@@ -1,0 +1,192 @@
+2015/05/02 21:25:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in C:\dev\live\mahmoud\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\dev\live\mahmoud\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/student/poso
+---
+2015/05/02 21:27:26 [error] [php] Undefined variable: code (C:\dev\live\mahmoud\test\protected\views\student\poso.php:11)
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CController.php(869): StudentController->renderFile()
+#1 C:\dev\live\mahmoud\framework\web\CController.php(782): StudentController->renderPartial()
+#2 C:\dev\live\mahmoud\test\protected\controllers\StudentController.php(24): StudentController->render()
+#3 C:\dev\live\mahmoud\framework\web\actions\CInlineAction.php(49): StudentController->actionPoso()
+#4 C:\dev\live\mahmoud\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\dev\live\mahmoud\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\dev\live\mahmoud\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\dev\live\mahmoud\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\dev\live\mahmoud\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/student/poso
+in C:\dev\live\mahmoud\test\protected\views\student\poso.php (11)
+in C:\dev\live\mahmoud\test\protected\controllers\StudentController.php (24)
+in C:\dev\live\mahmoud\test\index.php (13)
+2015/05/02 21:28:22 [error] [exception.CException] exception 'CException' with message 'StudentController cannot find the requested view "student/poso".' in C:\dev\live\mahmoud\framework\web\CController.php:878
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CController.php(782): CController->renderPartial('student/poso', NULL, true)
+#1 C:\dev\live\mahmoud\test\protected\controllers\StudentController.php(24): CController->render('student/poso')
+#2 C:\dev\live\mahmoud\framework\web\actions\CInlineAction.php(49): StudentController->actionPoso()
+#3 C:\dev\live\mahmoud\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\dev\live\mahmoud\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\dev\live\mahmoud\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\dev\live\mahmoud\framework\web\CWebApplication.php(282): CController->run('poso')
+#7 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController('student/poso')
+#8 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\dev\live\mahmoud\test\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/student/poso
+---
+2015/05/02 21:29:59 [error] [php] Undefined variable: code (C:\dev\live\mahmoud\test\protected\views\student\poso.php:11)
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CController.php(869): StudentController->renderFile()
+#1 C:\dev\live\mahmoud\framework\web\CController.php(782): StudentController->renderPartial()
+#2 C:\dev\live\mahmoud\test\protected\controllers\StudentController.php(24): StudentController->render()
+#3 C:\dev\live\mahmoud\framework\web\actions\CInlineAction.php(49): StudentController->actionPoso()
+#4 C:\dev\live\mahmoud\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\dev\live\mahmoud\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\dev\live\mahmoud\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\dev\live\mahmoud\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\dev\live\mahmoud\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/student/poso
+in C:\dev\live\mahmoud\test\protected\views\student\poso.php (11)
+in C:\dev\live\mahmoud\test\protected\controllers\StudentController.php (24)
+in C:\dev\live\mahmoud\test\index.php (13)
+2015/05/02 21:30:23 [error] [php] Undefined variable: code (C:\dev\live\mahmoud\test\protected\views\student\poso.php:11)
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CController.php(869): StudentController->renderFile()
+#1 C:\dev\live\mahmoud\framework\web\CController.php(782): StudentController->renderPartial()
+#2 C:\dev\live\mahmoud\test\protected\controllers\StudentController.php(41): StudentController->render()
+#3 C:\dev\live\mahmoud\framework\web\actions\CInlineAction.php(49): StudentController->actionPoso()
+#4 C:\dev\live\mahmoud\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\dev\live\mahmoud\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\dev\live\mahmoud\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\dev\live\mahmoud\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\dev\live\mahmoud\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/student/poso
+in C:\dev\live\mahmoud\test\protected\views\student\poso.php (11)
+in C:\dev\live\mahmoud\test\protected\controllers\StudentController.php (41)
+in C:\dev\live\mahmoud\test\index.php (13)
+2015/05/02 21:32:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\dev\live\mahmoud\framework\web\CController.php:483
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\dev\live\mahmoud\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController('student')
+#3 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\dev\live\mahmoud\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/student/
+---
+2015/05/02 21:38:51 [error] [exception.CException] exception 'CException' with message 'StudentController cannot find the requested view "poso".' in C:\dev\live\mahmoud\framework\web\CController.php:878
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CController.php(782): CController->renderPartial('poso', NULL, true)
+#1 C:\dev\live\mahmoud\test\protected\controllers\StudentController.php(18): CController->render('poso')
+#2 C:\dev\live\mahmoud\framework\web\actions\CInlineAction.php(49): StudentController->actionPoso()
+#3 C:\dev\live\mahmoud\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\dev\live\mahmoud\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\dev\live\mahmoud\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\dev\live\mahmoud\framework\web\CWebApplication.php(282): CController->run('poso')
+#7 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController('student/poso')
+#8 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\dev\live\mahmoud\test\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/student/poso
+---
+2015/05/02 21:45:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/bootstrap-responsive.css".' in C:\dev\live\mahmoud\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/boot...')
+#1 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\dev\live\mahmoud\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/css/bootstrap-responsive.css
+HTTP_REFERER=http://mahmoud.pc/student/add
+---
+2015/05/02 21:45:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.png".' in C:\dev\live\mahmoud\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/ico/favi...')
+#1 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\dev\live\mahmoud\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/ico/favicon.png
+HTTP_REFERER=http://mahmoud.pc/student/add
+---
+2015/05/02 22:04:52 [error] [php] Undefined variable: command (C:\dev\live\mahmoud\test\protected\controllers\StudentController.php:13)
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CController.php(286): StudentController->runAction()
+#1 C:\dev\live\mahmoud\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#2 C:\dev\live\mahmoud\framework\web\CWebApplication.php(282): StudentController->run()
+#3 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\dev\live\mahmoud\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/student/add?name=hatem
+in C:\dev\live\mahmoud\test\protected\controllers\StudentController.php (13)
+in C:\dev\live\mahmoud\test\index.php (13)
+2015/05/02 22:05:07 [error] [exception.CException] exception 'CException' with message 'CDbConnection and its behaviors do not have a method or closure named "execute".' in C:\dev\live\mahmoud\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\dev\live\mahmoud\test\protected\controllers\StudentController.php(13): CComponent->__call('execute', Array)
+#1 C:\dev\live\mahmoud\test\protected\controllers\StudentController.php(13): CDbConnection->execute('INSERT INTO `st...')
+#2 C:\dev\live\mahmoud\framework\web\actions\CInlineAction.php(49): StudentController->actionAdd()
+#3 C:\dev\live\mahmoud\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\dev\live\mahmoud\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\dev\live\mahmoud\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\dev\live\mahmoud\framework\web\CWebApplication.php(282): CController->run('add')
+#7 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController('student/add')
+#8 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\dev\live\mahmoud\test\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/student/add?name=hatem
+HTTP_REFERER=http://mahmoud.pc/student/add
+---
+2015/05/02 22:06:11 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mahmoud.student' doesn't exist. The SQL statement executed was: INSERT INTO `student` (name) values ('hatem') .
+in C:\dev\live\mahmoud\test\protected\controllers\StudentController.php (14)
+in C:\dev\live\mahmoud\test\index.php (13)
+2015/05/02 22:06:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mahmoud.student' doesn't exist. The SQL statement executed was: INSERT INTO `student` (name) values ('hatem') ' in C:\dev\live\mahmoud\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\dev\live\mahmoud\test\protected\controllers\StudentController.php(14): CDbCommand->execute()
+#1 C:\dev\live\mahmoud\framework\web\actions\CInlineAction.php(49): StudentController->actionAdd()
+#2 C:\dev\live\mahmoud\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\dev\live\mahmoud\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\dev\live\mahmoud\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\dev\live\mahmoud\framework\web\CWebApplication.php(282): CController->run('add')
+#6 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController('student/add')
+#7 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\dev\live\mahmoud\test\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/student/add?name=hatem
+HTTP_REFERER=http://mahmoud.pc/student/add
+---
+2015/05/02 22:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\dev\live\mahmoud\framework\web\CController.php:483
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\dev\live\mahmoud\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController('student')
+#3 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\dev\live\mahmoud\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/student/
+---
+2015/05/02 22:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\dev\live\mahmoud\framework\web\CController.php:483
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\dev\live\mahmoud\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController('student')
+#3 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\dev\live\mahmoud\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/student/
+---
+2015/05/02 22:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\dev\live\mahmoud\framework\web\CController.php:483
+Stack trace:
+#0 C:\dev\live\mahmoud\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\dev\live\mahmoud\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\dev\live\mahmoud\framework\web\CWebApplication.php(141): CWebApplication->runController('student')
+#3 C:\dev\live\mahmoud\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\dev\live\mahmoud\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/student/
+---
